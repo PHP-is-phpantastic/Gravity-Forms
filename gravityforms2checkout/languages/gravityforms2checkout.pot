@@ -1,0 +1,291 @@
+# Copyright (C) 2022 Gravity Forms
+# This file is distributed under the same license as the Gravity Forms 2Checkout Add-On plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms 2Checkout Add-On 2.1\n"
+"Report-Msgid-Bugs-To: https://gravityforms.com/support\n"
+"Last-Translator: Gravity Forms <support@gravityforms.com>\n"
+"Language-Team: Gravity Forms <support@gravityforms.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-07-20T15:57:05+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: gravityforms2checkout\n"
+
+#. Plugin Name of the plugin
+msgid "Gravity Forms 2Checkout Add-On"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://gravityforms.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Integrates Gravity Forms with 2Checkout, enabling end users to purchase goods and services through Gravity Forms."
+msgstr ""
+
+#. Author of the plugin
+msgid "Gravity Forms"
+msgstr ""
+
+#. Translators: 1. Open anchor tag 2. close anchor tag.
+#: class-gf-2checkout.php:559
+msgid "Enter your 2Checkout API credentials below. For more information about these settings, check out the %1$sGravity Forms documentation.%2$s"
+msgstr ""
+
+#: class-gf-2checkout.php:566
+#: class-gf-2checkout.php:570
+msgid "API Mode"
+msgstr ""
+
+#: class-gf-2checkout.php:577
+msgid "Production"
+msgstr ""
+
+#: class-gf-2checkout.php:581
+msgid "Sandbox"
+msgstr ""
+
+#: class-gf-2checkout.php:589
+msgid "API Credentials"
+msgstr ""
+
+#: class-gf-2checkout.php:594
+msgid "Merchant Code"
+msgstr ""
+
+#: class-gf-2checkout.php:602
+msgid "Secret Key"
+msgstr ""
+
+#: class-gf-2checkout.php:610
+msgid "Publishable Key"
+msgstr ""
+
+#: class-gf-2checkout.php:616
+msgid "Private Key"
+msgstr ""
+
+#: class-gf-2checkout.php:622
+msgid "IPN Configured?"
+msgstr ""
+
+#: class-gf-2checkout.php:629
+msgid "I have enabled the Gravity Forms IPN URL in my 2Checkout account."
+msgstr ""
+
+#: class-gf-2checkout.php:752
+msgid "You must add a 2Checkout field to your form before creating a feed. Let's go %1$sadd one%2$s!"
+msgstr ""
+
+#: class-gf-2checkout.php:774
+#: class-gf-2checkout.php:777
+msgid "Subscription Name"
+msgstr ""
+
+#: class-gf-2checkout.php:777
+msgid "Enter a name for the subscription. It will be displayed on the 2Checkout dashboard."
+msgstr ""
+
+#: class-gf-2checkout.php:801
+msgid "Email"
+msgstr ""
+
+#: class-gf-2checkout.php:806
+msgid "Address"
+msgstr ""
+
+#: class-gf-2checkout.php:811
+msgid "Address 2"
+msgstr ""
+
+#: class-gf-2checkout.php:816
+msgid "City"
+msgstr ""
+
+#: class-gf-2checkout.php:821
+msgid "State"
+msgstr ""
+
+#: class-gf-2checkout.php:826
+msgid "Zip"
+msgstr ""
+
+#: class-gf-2checkout.php:831
+msgid "Country"
+msgstr ""
+
+#: class-gf-2checkout.php:836
+msgid "Phone Number"
+msgstr ""
+
+#: class-gf-2checkout.php:858
+msgid "week(s)"
+msgstr ""
+
+#: class-gf-2checkout.php:863
+msgid "month(s)"
+msgstr ""
+
+#: class-gf-2checkout.php:868
+msgid "year(s)"
+msgstr ""
+
+#: class-gf-2checkout.php:1019
+#: class-gf-2checkout.php:1104
+#: class-gf-2checkout.php:1195
+msgid "Unable to initialize API."
+msgstr ""
+
+#: class-gf-2checkout.php:1148
+msgid "Order was cancelled"
+msgstr ""
+
+#: class-gf-2checkout.php:1262
+msgid "Could not retrieve subscription from 2Checkout."
+msgstr ""
+
+#: class-gf-2checkout.php:1350
+msgid "Payment Completed"
+msgstr ""
+
+#: class-gf-2checkout.php:1351
+msgid "Payment Refunded"
+msgstr ""
+
+#: class-gf-2checkout.php:1352
+msgid "Payment Failed"
+msgstr ""
+
+#: class-gf-2checkout.php:1353
+msgid "Subscription Created"
+msgstr ""
+
+#: class-gf-2checkout.php:1354
+msgid "Subscription Payment Added"
+msgstr ""
+
+#: class-gf-2checkout.php:1355
+msgid "Subscription Payment Failed"
+msgstr ""
+
+#: class-gf-2checkout.php:1473
+msgid "You must provide the cardholder's name."
+msgstr ""
+
+#: class-gf-2checkout.php:1478
+#: class-gf-2checkout.php:1564
+msgid "You must provide your email address."
+msgstr ""
+
+#: class-gf-2checkout.php:1483
+#: class-gf-2checkout.php:1569
+msgid "You must provide your phone number."
+msgstr ""
+
+#: class-gf-2checkout.php:1488
+#: class-gf-2checkout.php:1559
+msgid "You must provide a valid billing address."
+msgstr ""
+
+#: class-gf-2checkout.php:1546
+msgid "You must provide the cardholder's full name."
+msgstr ""
+
+#: class-gf-2checkout.php:1737
+msgid "Setup fee"
+msgstr ""
+
+#: class-gf-2checkout.php:1826
+msgid "View Instructions"
+msgstr ""
+
+#: class-gf-2checkout.php:1831
+msgid "Click the following link and log in to access your 2Checkout IPN management page:"
+msgstr ""
+
+#: class-gf-2checkout.php:1835
+msgid "Navigate to Dashboard → Integrations → Webhooks and API."
+msgstr ""
+
+#: class-gf-2checkout.php:1836
+msgid "Click on the IPN Settings tab."
+msgstr ""
+
+#: class-gf-2checkout.php:1838
+msgid "Click on the Add IPN URL button and add the following IPN URL."
+msgstr ""
+
+#: class-gf-2checkout.php:1841
+msgid "Click Add IPN button."
+msgstr ""
+
+#: class-gf-2checkout.php:1842
+msgid "Scroll down to the triggers section and make sure Completed orders, Cancelled orders and Reversed and refund orders are checked."
+msgstr ""
+
+#: class-gf-2checkout.php:1843
+msgid "Scroll down to Response tags and click select all."
+msgstr ""
+
+#: class-gf-2checkout.php:1844
+msgid "Update the settings."
+msgstr ""
+
+#. translators: 1: open <a> tag, 2: close <a> tag
+#: class-gf-2checkout.php:1971
+msgid "Connection requirements for 2Checkout have changed with this latest release. %1$sPlease update your plugin settings%2$s to reconnect your site to 2Checkout."
+msgstr ""
+
+#: includes/class-gf-2checkout-api.php:266
+msgid "API request failed"
+msgstr ""
+
+#: includes/class-gf-field-2checkout-creditcard.php:33
+msgid "2Checkout"
+msgstr ""
+
+#: includes/class-gf-field-2checkout-creditcard.php:57
+msgid "Allows accepting credit card information to make payments via 2Checkout payment gateway."
+msgstr ""
+
+#: includes/class-gf-field-2checkout-creditcard.php:76
+msgid "Credit Card"
+msgstr ""
+
+#: includes/class-gf-field-2checkout-creditcard.php:77
+msgid "Card Details"
+msgstr ""
+
+#: includes/class-gf-field-2checkout-creditcard.php:78
+msgid "Card Type"
+msgstr ""
+
+#: includes/class-gf-field-2checkout-creditcard.php:79
+#: includes/class-gf-field-2checkout-creditcard.php:211
+#: includes/class-gf-field-2checkout-creditcard.php:231
+msgid "Cardholder Name"
+msgstr ""
+
+#: includes/class-gf-field-2checkout-creditcard.php:85
+msgid "Only one 2Checkout field can be added to the form"
+msgstr ""
+
+#: includes/class-gf-field-2checkout-creditcard.php:197
+msgid "Card Number"
+msgstr ""
+
+#: includes/class-gf-field-2checkout-creditcard.php:202
+msgid "Expiration date"
+msgstr ""
+
+#: includes/class-gf-field-2checkout-creditcard.php:206
+msgid "Security code"
+msgstr ""
+
+#: includes/class-gf-field-2checkout-creditcard.php:255
+msgid "This page is unsecured. Do not enter a real credit card number! Use this field only for testing purposes. "
+msgstr ""
